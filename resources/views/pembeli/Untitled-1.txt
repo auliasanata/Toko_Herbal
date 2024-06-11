@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Data Diri</h1>
+        <table>
+            <tr>
+                <th>ID</th>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th>Nama</th>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>john.doe@example.com</td>
+            </tr>
+            <tr>
+                <th>Email Verified</th>
+                <td>2023-01-01 12:34:56</td>
+            </tr>
+            <tr>
+                <th>Created At</th>
+                <td>2023-01-01 12:34:56</td>
+            </tr>
+            <tr>
+                <th>Updated At</th>
+                <td>2023-05-01 12:34:56</td>
+            </tr>
+            <tr>
+                <th>No HP</th>
+                <td>+62 812 3456 7890</td>
+            </tr>
+            <tr>
+                <th>Alamat</th>
+                <td>Jl. Mawar No. 123, Jakarta</td>
+            </tr>
+            <tr>
+                <th>Level</th>
+                <td>User</td>
+            </tr>
+            <tr>
+                <th>Province</th>
+                <td>DKI Jakarta</td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td>Jakarta Selatan</td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td>Jl. Mawar No. 123, Jakarta Selatan, DKI Jakarta</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
