@@ -25,7 +25,7 @@ class Pesanan extends Model
         'total_pembayaran',
         'image_produk',
         'bukti_pembayaran',
-        'user_id', // Kolom yang akan digunakan untuk foreign key ke tabel users
+        'user_id', // Kolom yang akan digunakan untuk ke tabel users
         'nama_pengguna',
         'status',
         'no_transaksi',
